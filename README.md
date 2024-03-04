@@ -32,10 +32,19 @@ To create, test, and run this app, I used Shiny for python within Visual Studio 
 
 ## Screenshots
 
+The app running in Visual Studio Code:
 ![The app running in Visual Studio Code](app-in-vscode.png)
+
+The Introduction and initial data presentation:
 ![Introduction and Initial Data](initial-data.png)
+
+Nitrate data histograms with interactive bin count:
 ![Nitrate data histograms with interactive bin count](histograms.png)
-![Interactive IDW calculation and scatter plot results)(idw-slider-and-scatter-plot.png)
+
+Presentation of the IDW calculation with interactive selection for power value:
+![Interactive IDW calculation and scatter plot results](idw-slider-and-scatter-plot.png)
+
+Presentation of further results:
 ![Further results with residual plot and map](residual-plot-and-map.png)
 ![Linear Regression OLS model printout](model-printout.png)
 
