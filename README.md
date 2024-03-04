@@ -30,4 +30,13 @@ If a user wants to build this code themselves, I want to note that this code req
 
 To create, test, and run this app, I used Shiny for python within Visual Studio Code with the Shiny VSCode extension. The app is able to run either within VSCode with the extension or from local-host.
 
+## Screenshots
+
+![The app running in Visual Studio Code](app-in-vscode.png)
+![Introduction and Initial Data](initial-data.png)
+![Nitrate data histograms with interactive bin count](histograms.png)
+![Interactive IDW calculation and scatter plot results)(idw-slider-and-scatter-plot.png)
+![Further results with residual plot and map](residual-plot-and-map.png)
+![Linear Regression OLS model printout](model-printout.png)
+
 

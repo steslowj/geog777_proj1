@@ -1,7 +1,6 @@
 branca
 ipyleaflet
 ipywidgets
-json
 matplotlib
 numpy
 gdal

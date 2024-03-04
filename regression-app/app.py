@@ -50,10 +50,10 @@ with ui.div(class_="col-md-10 col-lg-8 py-1 mx-auto pt-4 small text-left"):
         <br>With inspiration from the Shiny App <a href='https://shinylive.io/py/app/#regularization'>Regulation Strength</a>
         """
 )
-with ui.div(class_="col-md-10 col-lg-8 py-5 mx-auto text-lg-center text-left"):
+with ui.div(class_="col-md-10 col-lg-8 py-3 mx-auto text-lg-center text-left"):
     ui.h1("Exploring the Influence of Well Nitrate Levels on Cancer Rates in WI, USA")
 
-with ui.div(class_="col-lg-6 py-5 mx-auto"):
+with ui.div(class_="col-lg-6 py-3 mx-auto"):
     ui.markdown(
         """
         ### Initial data
@@ -106,7 +106,7 @@ with ui.div(class_="row py-3 mx-auto"):
           ax.set_axis_off()
           return ax
 
-with ui.div(class_="col-lg-6 py-5 mx-auto"):
+with ui.div(class_="col-lg-6 py-3 mx-auto"):
     ui.markdown(
         """
         ### Analysis Process
@@ -117,7 +117,7 @@ with ui.div(class_="col-lg-6 py-5 mx-auto"):
           - Run linear regression on Cancer and Nitrate values per Census Tract Polygon 
         """
     )
-with ui.div(class_="col-lg-6 py-5 mx-auto"):
+with ui.div(class_="col-lg-6 py-3 mx-auto"):
     ui.markdown(
         """
         ### How are the Nitrate Well Sites Distributed?
@@ -126,7 +126,7 @@ with ui.div(class_="col-lg-6 py-5 mx-auto"):
         """
     )
 
-with ui.div(class_="col-md-78 col-lg-6 py-4 mx-auto"):  
+with ui.div(class_="col-md-78 col-lg-6 py-3 mx-auto"):  
     ui.input_slider("nn", "Number of bins for Nitrate histograms", 1, 100, 20, width="100%")
 
 with ui.div(class_="col-lg-10 row py-3 mx-auto"):
@@ -154,7 +154,7 @@ with ui.div(class_="col-lg-10 row py-3 mx-auto"):
             ax.set_ylabel("Count")
             return ax
          
-with ui.div(class_="col-lg-6 py-5 mx-auto"):
+with ui.div(class_="col-lg-6 py-3 mx-auto"):
     ui.markdown(
         """
         ### Choosing a Power value for IDW
@@ -183,7 +183,7 @@ with ui.div(class_="col-lg-6 py-5 mx-auto"):
 with ui.div(class_="col-lg-6 mx-auto"):
     ui.h3("Results")    
 
-with ui.div(class_="col-lg-7 py-5 mx-auto"):
+with ui.div(class_="col-lg-7 py-3 mx-auto"):
     
     @render.plot()
     def plotRegPlot():
